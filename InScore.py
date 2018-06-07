@@ -24,10 +24,14 @@ def Insulitis_Score():
     Islet2_percentage = Islet_2/total * 100
     Islet3_percentage = Islet_3/total * 100
     Islet4_percentage = Islet_4/total * 100
-    tkMessageBox.showinfo("Result", "The Insulitis Score value is {0}.".format(str(Result)))
+    tkMessageBox.showinfo(
+            "Result", "The Insulitis Score value is {0}.".format(str(Result)))
     
     if total < 40:
-        tkMessageBox.showinfo("Islet number","You scored {0} islets, at least 40 islets are needed to have reliable results.".format(str(total)))
+        tkMessageBox.showinfo(
+    "Islet number",
+    "You scored {0} islets, at least need 40 to have reliable results."
+    .format(str(total)))
     
     cajaM.delete(0, END)
     caja1.delete(0, END)
