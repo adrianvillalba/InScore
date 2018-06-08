@@ -3,7 +3,7 @@ An executable to calculate the **Insulitis Score** automatically with an interac
 The user should enter and ID for specimen and the number of isles scored in each group (from 0 to 4 score). 
 Then the Insulitis Score is calculated following the formula: 
 <p align="center">
-  <img src=https://github.com/adrianvillalba/InScore/blob/master/Images/Screenshot3.jpg width="200"/>
+  <img src=https://github.com/adrianvillalba/InScore/blob/master/Images/Screenshot3.jpg width="400"/>
 </p>
 
 Screenshot for the input box interface, requesting for speciment ID and scored islet groups:
